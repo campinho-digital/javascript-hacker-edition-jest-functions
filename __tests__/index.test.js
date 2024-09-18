@@ -4,7 +4,6 @@ const {
   multiplicar,
   dividir,
   ehPar,
-  encontrarMaior,
 } = require("../src/index");
 
 // Testes para a função somar
