@@ -29,10 +29,6 @@ function ehPar(num) {
 }
 
 
-// Função que encontra o maior número entre dois
-function encontrarMaior(a, b) {
-  return a > b ? a : b;
-}
 
 
 // Exporta todas as funções para serem usadas nos testes
@@ -42,5 +38,5 @@ module.exports = {
   multiplicar,
   dividir,
   ehPar,
-  encontrarMaior,
+ 
 };

@@ -4,7 +4,7 @@ const {
   multiplicar,
   dividir,
   ehPar,
-  encontrarMaior,
+ 
 } = require("../src/index");
 
 // Testes para a função somar
@@ -51,3 +51,6 @@ test("Verifica se o número é par", () => {
 test("Verifica se o número é ímpar", () => {
   expect(ehPar(5)).toBe(false);
 });
+
+
+
